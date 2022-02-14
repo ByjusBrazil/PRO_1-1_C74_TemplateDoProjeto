@@ -97,7 +97,7 @@ export default class RideHistoryScreen extends Component {
               {`${item.bike_type} ( ${item.bike_id} )`}
             </ListItem.Title>
             <ListItem.Subtitle style={styles.subtitle}>
-              {`Essa bicicleta está ${transactionType} por você.`}
+              {`Essa bicicleta foi ${transactionType} por você.`}
             </ListItem.Subtitle>
             <View style={styles.lowerLeftContaiiner}>
               <View style={styles.transactionContainer}>
